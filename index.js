@@ -7,7 +7,7 @@ let hostname = process.env.RDS_HOSTNAME || "127.0.0.1";
 let rds_port = process.env.RDS_PORT || "5432";
 let rds_db_name = "trafficked_children";
 let rds_username = process.env.RDS_USERNAME || "postgres";
-let rds_password = process.env.RDS_PASSWORD || "Jewish66";
+let rds_password = process.env.RDS_PASSWORD || "********";
 
 const express = require("express");
 let app = express();
